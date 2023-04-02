@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
 export default function Header() {
   return (
 <div className="navbar bg-white-100 ">
@@ -19,6 +18,7 @@ export default function Header() {
       
       </ul>
     </div>
+
     <a className="btn btn-ghost normal-case text-xl">Car Doctor</a>
   </div>
   <div className="navbar-center hidden lg:flex">
