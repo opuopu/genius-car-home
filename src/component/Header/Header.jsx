@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 export default function Header() {
   return (
-<div className="navbar bg-white-100 ">
+<div className="navbar bg-white-100 w-3/4 mx-auto ">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -18,7 +18,7 @@ export default function Header() {
       
       </ul>
     </div>
-
+a
     <a className="btn btn-ghost normal-case text-xl">Car Doctor</a>
   </div>
   <div className="navbar-center hidden lg:flex">
